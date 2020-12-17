@@ -1,0 +1,5 @@
+{
+    "require": {
+        "qoin/qoin-php": "^0.0.2"
+    }
+}
