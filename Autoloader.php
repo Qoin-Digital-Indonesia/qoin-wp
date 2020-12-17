@@ -25,7 +25,7 @@ class Autoloader {
 	 * @return boolean
 	 */
 	public static function init() {
-		$autoloader = dirname( __DIR__ ) . '/qoinpg/vendor/autoload.php';
+		$autoloader = plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 		if ( ! is_readable( $autoloader ) ) {
 			self::missing_autoloader();
