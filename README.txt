@@ -1,4 +1,4 @@
-=== WooCommerce ===
+=== Qoin Payment Gateway ===
 Contributors: qoin
 Tags: checkout, payments, storefront, qoin
 Requires at least: 5.3
